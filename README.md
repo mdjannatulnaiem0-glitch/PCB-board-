@@ -6,10 +6,10 @@ PCB board
 
 An introductory hardware project designing an astable multivibrator circuit using the classic NE555 Timer IC. This project serves as a foundational step toward understanding analog circuit behavior, schematic capture, and PCB routing parameters based on IPC standards.
 
-## 🔭 Project Overview
+ Project Overview
 This circuit generates a continuous square wave pulse that flashes an LED at a specific frequency. It acts as an electronic "beacon," reminiscent of a pulsing star in the night sky. The objective is to transition from a theoretical breadboard layout to a physical, manufactured PCB using EDA tools (KiCad/Altium).
 
-## 🧮 Scientific Formulation & Calculations
+##  Scientific Formulation & Calculations
 The frequency ($f$) and duty cycle ($D$) of the pulsing LED are governed by the charge and discharge times of the capacitor ($C_1$) through resistors ($R_1$) and ($R_2$).
 
 - **Charge Time (High Output):** 
@@ -38,16 +38,16 @@ The NE555 IC is configured in **Astable Mode**:
 7. **Discharge (Pin 7):** Connected to the junction of $R_1$ and $R_2$.
 8. **$V_{CC}$ (Pin 8):** Connected to +5V to +9V Power Supply.
 
-## 🛠️ PCB Design Parameters & Best Practices
+##  PCB Design Parameters & Best Practices
 - **Trace Width:** Minimum 0.25mm (10 mils) for signal traces; 0.5mm (20 mils) for $V_{CC}$ and GND copper tracks to minimize parasitic resistance.
 - **Form Factor:** Compact 2-layer FR4 board layout.
 - **Decoupling:** Place the 10nF noise-filtering capacitor as close as physically possible to Pin 5.
 
-## 📁 Repository Structure
+## 📁
+Repository Structure
 - `/Schematics` : Contains KiCad/Altium schematic files (`.sch`).
 - `/Layout` : Contains PCB routing files (`.pcb`).
 - `/Manufacturing_Files` : Industry-standard **Gerber Files (X2)** and Bill of Materials (BOM) ready for fabrication.
 
----
-*Developed by an aspiring Electronics Engineering student.*
+
 
