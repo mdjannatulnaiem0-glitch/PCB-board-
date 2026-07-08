@@ -49,5 +49,6 @@ Repository Structure
 - `/Layout` : Contains PCB routing files (`.pcb`).
 - `/Manufacturing_Files` : Industry-standard **Gerber Files (X2)** and Bill of Materials (BOM) ready for fabrication.
 
+createt ny naiem 
 
 
