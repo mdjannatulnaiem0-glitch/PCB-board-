@@ -1,4 +1,3 @@
-
 # PCB-board-
 PCB board 
 
@@ -6,6 +5,7 @@ PCB board
 
 An introductory hardware project designing an astable multivibrator circuit using the classic NE555 Timer IC. This project serves as a foundational step toward understanding analog circuit behavior, schematic capture, and PCB routing parameters based on IPC standards.
 
+IPC 
  Project Overview
 This circuit generates a continuous square wave pulse that flashes an LED at a specific frequency. It acts as an electronic "beacon," reminiscent of a pulsing star in the night sky. The objective is to transition from a theoretical breadboard layout to a physical, manufactured PCB using EDA tools (KiCad/Altium).
 
