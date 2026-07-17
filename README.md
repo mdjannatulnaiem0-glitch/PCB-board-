@@ -49,6 +49,28 @@ Repository Structure
 - `/Layout` : Contains PCB routing files (`.pcb`).
 - `/Manufacturing_Files` : Industry-standard **Gerber Files (X2)** and Bill of Materials (BOM) ready for fabrication.
 
-createt ny naiem 
+# [: Arduino Nano Custom Baseboard]
+
+## Overview
+This is an industry-standard PCB project designed strictly following IPC guidelines. ]
+
+## Key Features & IPC Standards Followed
+* **Design Standard:** Designed according to **IPC-2221** (Generic Standard on Printed Board Design).
+* **Footprints:** Custom and library footprints validated against **IPC-7351B** for perfect land patterns.
+* **Manufacturing Level:** Optimized for **IPC-A-610 Class 2** (Dedicated Service Electronic Products).
+* **Trace Parameters:** Trace width calculated using IPC-2221 calculator for 1A current carrying capacity.
+
+## Board Specifications
+* **Layers:** 2-Layer / 4-Layer
+* **Material:** FR-4 (IPC-4101 compliant)
+* **Minimum Trace Width:** 12 mil
+* **Minimum Clearance:** 10 mil
+* **Via Size:** 0.3mm (Hole) / 0.6mm (Ring)
+
+## Repository Structure
+* `/Schematic` - PDF and Source Schematic files.
+* `/Layout` - PCB design source files.
+* `/Manufacturing` - Gerber files, Bill of Materials (BOM), and Pick & Place files.
+* 
 
 
